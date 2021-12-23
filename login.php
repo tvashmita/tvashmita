@@ -20,7 +20,7 @@
                 header("Location: welcome.php");
             }else {
                 //echo "Incorrect Email or Password!!!";
-                ?><script>window.alert("Incorrect Emailid or Password");</script><?php
+                ?><script>window.alert("Incorrect EmailId or Password");</script><?php
             }
         }
     }    
