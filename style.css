@@ -1,0 +1,14 @@
+
+h2 {
+    font-weight: bold;
+    color:black;
+   }
+td {
+        text-align: left;
+   }
+table {
+        table-layout: inherit;
+     }
+.script{
+         text-decoration-color: red;
+     }
