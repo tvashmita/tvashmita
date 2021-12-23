@@ -18,7 +18,7 @@
         }else{$email = input_data($_POST["email"]); 
                 $pattern = "^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$^";  
                 if (!preg_match ($pattern, $email) ){ 
-                    $email_err = "Invalid email format";  
+                    $email_err = "Invalid Email format";  
                 }
             }
             if(empty($_POST['password'])){ 
